@@ -6,34 +6,12 @@ public class Main {
         int a = 10;
         int b = 3;
 
-        int sum = a + b;
-        System.out.println(sum);
+        System.out.println(a++);
 
-        int difference = a - b;
-        System.out.println(difference);
+        System.out.println(++a);
 
-        int product = a * b;
-        System.out.println(product);
+        System.out.println(b--);
 
-        int quotient = a / b;
-        System.out.println(quotient);
-
-        int remainder = a % b;
-        System.out.println(remainder);
-
-        a += 5;
-        System.out.println(a);
-
-        b -= 1;         // 3 -1
-        System.out.println(b);
-
-        b *= 4;         // 2 * 4
-        System.out.println(b);
-
-        b /= 2;         // 8 / 2
-        System.out.println(b);
-
-        b %= 3;         // 4 % 3
-        System.out.println(b);
+        System.out.println(--b);
     }
 }
