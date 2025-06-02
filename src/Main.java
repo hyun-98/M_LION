@@ -20,5 +20,20 @@ public class Main {
 
         int remainder = a % b;
         System.out.println(remainder);
+
+        a += 5;
+        System.out.println(a);
+
+        b -= 1;         // 3 -1
+        System.out.println(b);
+
+        b *= 4;         // 2 * 4
+        System.out.println(b);
+
+        b /= 2;         // 8 / 2
+        System.out.println(b);
+
+        b %= 3;         // 4 % 3
+        System.out.println(b);
     }
 }
