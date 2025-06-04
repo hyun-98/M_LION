@@ -1,17 +1,26 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        int age  = 20;
+        boolean hasID = true;
 
-        int a = 10;
-        int b = 3;
+        if(age >= 18 && hasID) {
+            System.out.println("접속가능.");
+        }
 
-        System.out.println(a++);
+        boolean isWeekend = false;
+        boolean isHoliday = true;
 
-        System.out.println(++a);
+        if (isWeekend || isHoliday) {}
 
-        System.out.println(b--);
+        if (isWeekend || isHoliday) {
+            System.out.println("쉴수있습니다.");
+        }
 
-        System.out.println(--b);
+        boolean isRaining = true;
+        if(!isRaining) {
+            System.out.println("그냥 나가");
+        } else {
+            System.out.println("우산 챙겨");
+        }
     }
 }
