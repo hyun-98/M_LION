@@ -2,14 +2,18 @@ public class Main {
 
     public static void main(String[] args) {
 
+        String message = "Hello World!";
 
-        int[] numbers = {2,4,6,8,10};
-        int sum = 0;
+        //문자열 길이 확인
+        System.out.println("문자열 길이 : " + message.length());
 
-        for(int i = 0; i<numbers.length; i++){
-            sum += numbers[i];
-        }
+        //대문자로 변환
+        System.out.println("대문자로 변환 : " + message.toUpperCase());
 
-        System.out.println("sum : " + sum);
+        //부분 문자열 추출
+        System.out.println("부분 문자열 (0-5) : " + message.substring(0, 5));
+
+        //특정 문자의 위치 찾기
+        System.out.println("문자 'W'의 위치 : " + message.indexOf('W'));
     }
 }
